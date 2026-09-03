@@ -4,7 +4,7 @@ GraphSurv is a graph-based discrete-time survival model for irregular multivaria
 
 ## Installation
 
-The validated environment is Python 3.11.16 with PyTorch 2.12.0+cu126 (CUDA 12.6). R is not required for the GraphSurv workflow. GPU acceleration is used when available; the same workflow also runs on CPU.
+The validated environment is Python 3.11.16 with PyTorch 2.12.0+cu126 (CUDA 12.6). GPU acceleration is used when available; the same workflow also runs on CPU.
 
 ```bash
 python -m pip install --upgrade pip
