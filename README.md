@@ -39,3 +39,17 @@ This single example generates a small synthetic longitudinal survival dataset an
 The demonstration uses three outer folds, two Optuna trials, two tuning epochs, and four final-fit epochs solely to make the workflow quick to reproduce; it is not the full paper tuning budget.
 
 The output directory contains the synthetic CSV, `cv_folds_metrics.csv`, `cv_metrics.txt`, per-fold `tuning/best_params.json`, fitted `best_model.pt` files, subject-level `oof_predictions.csv` files, and per-fold IPCW time-dependent AUC files.
+
+## Cite This Paper
+```LaTex
+@ARTICLE{11733543,
+  author={Zhang, Junbei and Zhao, Xuejing},
+  journal={IEEE Transactions on Computational Biology and Bioinformatics}, 
+  title={GraphSurv: A Graph-Based Framework for Dynamic Survival Analysis With Longitudinal Data}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Modeling;Timing;History;Hazards;Measurement;Acquired immune deficiency syndrome;MIMICs;Indexes;Indexing;Dynamic survival analysis;graph neural networks;longitudinal data;representation learning;SHAP},
+  doi={10.1109/TCBBIO.2026.3741569}}
+```
